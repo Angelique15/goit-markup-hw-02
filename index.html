@@ -7,24 +7,28 @@
     <title>WebStudio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <script src='main.js'></script>
 </head>
 
 <body>
     <!-- El encabezado de la página web -->
-    <header>
+    <header class="estilo-encabezado">
         <nav>
             <table>
                 <tr>
-                    <td><a href="webstudio">WebStudio</a></td>
+                    <td><a class="logo-web" href="webstudio">WebStudio</a></td>
                     <td>
-                        <h4><a>Estudio</a></h4>
+                        <a class="estilo-enlace" href="Estudio">Estudio</a>
                     </td>
                     <td>
-                        <h4><a>Portafolio</a></h4>
+                        <a class="estilo-enlace" href="Portafolio">Portafolio</a>
                     </td>
                     <td>
-                        <h4><a>Contactos</a></h4>
+                        <a class="estilo-enlace" href="Contactos">Contactos</a>
                     </td>
                 </tr>
             </table>
@@ -37,7 +41,7 @@
 
     <!--contenido principal de la página-->
     <main>
-        <div>
+        <div class="marco-principal">
             <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
             <button class="button" type="button">
                 <h2>Solicitar un servicio</h2>
@@ -80,8 +84,9 @@
                         height="323">
                 </li>
             </ul>
-
-            <!--Descripcion de los empleados-->
+        </div>
+        <!--Descripcion de los empleados-->
+        <div class="marco-de-profesionales">
             <h2><strong>Nuestro Equipo</strong></h2>
             <ul>
                 <li>
@@ -107,9 +112,9 @@
         </div>
     </main>
     <!--Contenido del pie de página-->
-    <footer>
+    <footer class="marco-principal">
         <address>
-            <a href="webstudio">WebStudio</a>
+            <a class="logo-web" href="webstudio">WebStudio</a>
             <ul>
                 <li>Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
                 <li>info@example.com</li>
