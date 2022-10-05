@@ -6,35 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- El encabezado de la página web -->
-    <header>
+    <header class="linea-superior-bg">
         <nav>
-            <table>
-                <tr>
-                    <td><a href="webstudio">WebStudio</a></td>
-                    <td>
-                        <h4><a>Estudio</a></h4>
-                    </td>
-                    <td>
-                        <h4><a>Portafolio</a></h4>
-                    </td>
-                    <td>
-                        <h4><a>Contactos</a></h4>
-                    </td>
-                </tr>
-            </table>
+            <ul>
+                <li>
+                    <a class="logo-web" href="webstudio">WebStudio</a>
+                </li>
+                <li>
+                    <a class="estilo-enlace" href="Estudio">Estudio</a>
+                </li>
+                <li>
+                    <a class="estilo-enlace" href="portafolio.html">Portafolio</a>
+                </li>
+                <li>
+                    <a class="estilo-enlace" href="Contactos">Contactos</a>
+                </li>
+            </ul>
+            <ul class="info-contacto">
+                <li><a href="info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="info-contacto tel">+52 55 5529 6000</a></li>
+            </ul>
         </nav>
-        <div>
-            <a href="info@devstudio.com">info@devstudio.com</a>
-            <a>+52 55 5529 6000</a>
-        </div>
     </header>
     <!--contenido principal de la página-->
     <main>
-        <div>
+        <div class="botones-portafolio">
             <ul>
                 <li>
                     <button class="button" type="button">
@@ -114,10 +119,10 @@
         </div>
     </main>
     <!--Contenido del pie de página-->
-    <footer>
+    <footer class="pie-de-pagina">
         <address>
-            <a href="webstudio">WebStudio</a>
-            <ul>
+            <a class="logo-web" href="webstudio">WebStudio</a>
+            <ul class="lista-final">
                 <li>Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
                 <li>info@example.com</li>
                 <li>+52 55 5529 6000</li>

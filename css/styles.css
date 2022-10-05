@@ -4,6 +4,18 @@ body {
     width: 1600px;
     height: 2410px;
 }
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
 /* estilos del header*/
 .logo-web{
     color: #2196F3;
@@ -13,26 +25,21 @@ body {
     margin-top: 24px;
     margin-right: 93px;
     margin-bottom: 25px;
-    margin-left: 215px;
+    margin-left: 110px;
 }
-
-.estilo-encabezado {
-    display: flex; 
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    margin-bottom: 32px;
-}
-
-.marco-principal {
-   /*BG*/
+  
+/*BG*/
+#marco-principal {
 width: 1600px;
 height: 600px; 
-top: 80px; 
-left: -4px;
-margin-top: 32px;
+margin: 0 auto 0 auto;
+border-top: 0;
 background: #2F303A;
+}
+
+.info-contacto {
+    justify-content: right;
+    padding-bottom: 93px;
 }
 
 .titulo-soluciones {
@@ -54,17 +61,9 @@ background: #2F303A;
     margin-left: 0;
 }
 
-.info-contacto {
-    font-weight: 500;
-    font-size: 14px;
-    padding-top: 32px;
-    margin-right: 60px;
-    margin-bottom: 32px;
-    margin-left: 344px;
-}
-
 .tel {
     margin-left: 50px;
+    align-items: flex-end;
 }
 
 .estilo-enlace:hover, .estilo-enlace:focus{
@@ -72,6 +71,7 @@ background: #2F303A;
 }
 
 .soluciones-button {
+    cursor: pointer;
     display: flex;
     background-color: #2196F3;
     color: #FFFFFF;
@@ -80,6 +80,7 @@ background: #2F303A;
     margin-bottom: 200px;
     margin-left: 670px;
     Padding: 10px, 32px, 10px, 32px
+    
     
 }
 
@@ -90,6 +91,7 @@ size: 14px;
 letter-spacing: 0.03em;
 margin: auto;
 width: auto;
+line-height: 2.4;
 }
 
 .informacion-parrafo ul {
@@ -113,10 +115,37 @@ width: auto;
     size: 14px;
     margin-top: 9px;
     margin-bottom: 83px;
-    margin-left: 215px;
+    padding-left: 115px;
+    list-style: none;
 }
 
 .lista-final ul {
     list-style: none;
 }
 
+/*estilos del portafolio*/
+
+.linea-superior-bg {
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 16px;
+}
+
+.linea-superior-bg ul {
+    list-style: none;
+    display: flex;
+}
+
+.botones-portafolio {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.botones-portafolio ul {
+    list-style-type: none;
+}
+
+.social-links {
+    display: flex;
+    justify-content:flex-start;
+}
