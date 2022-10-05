@@ -1,31 +1,122 @@
 body {
     background-color: #FFFFFF;
     font-family: "Roboto", "Raleway", "sans-serif";
-    Width: 1600px;
+    width: 1600px;
     height: 2410px;
 }
-
+/* estilos del header*/
 .logo-web{
     color: #2196F3;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-top: 24px;
+    margin-right: 93px;
+    margin-bottom: 25px;
+    margin-left: 215px;
+}
+
+.estilo-encabezado {
+    display: flex; 
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 32px;
 }
 
 .marco-principal {
-    background: #2F303A;
-    width: Width 1600px;
-    height: 600px;
-    
+   /*BG*/
+width: 1600px;
+height: 600px; 
+top: 80px; 
+left: -4px;
+margin-top: 32px;
+background: #2F303A;
+}
+
+.titulo-soluciones {
+    color: #FFFFFF;
+    size: 44px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-top: 200px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .estilo-enlace {
     color: #212121;
     font-size: 14px;
+    margin-top: 32px;
+    margin-right: 16px;
+    margin-bottom: 32px;
+    margin-left: 0;
+}
+
+.info-contacto {
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 32px;
+    margin-right: 60px;
+    margin-bottom: 32px;
+    margin-left: 344px;
+}
+
+.tel {
+    margin-left: 50px;
 }
 
 .estilo-enlace:hover, .estilo-enlace:focus{
     color: #2196F3;
 }
 
-.button {
+.soluciones-button {
+    display: flex;
     background-color: #2196F3;
     color: #FFFFFF;
+    margin-top: 30px;
+    margin-right: 669px;
+    margin-bottom: 200px;
+    margin-left: 670px;
+    Padding: 10px, 32px, 10px, 32px
+    
 }
+
+/*estilos parrafos e informacion principal*/
+.informacion-parrafo {
+color: #757575;
+size: 14px;
+letter-spacing: 0.03em;
+margin: auto;
+width: auto;
+}
+
+.informacion-parrafo ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+/* estilos del footer*/
+.pie-de-pagina {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2158px;
+}
+
+.lista-final {
+    color: #FFFFFF;
+    size: 14px;
+    margin-top: 9px;
+    margin-bottom: 83px;
+    margin-left: 215px;
+}
+
+.lista-final ul {
+    list-style: none;
+}
+
